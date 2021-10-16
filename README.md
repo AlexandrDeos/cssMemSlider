@@ -1,1 +1,1 @@
-# cssMemSlider
+https://alexandrdeos.github.io/cssMemSlider/cssMemSlider/index.html
