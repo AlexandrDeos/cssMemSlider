@@ -8,7 +8,6 @@ body {
     height: 400px;
     position: relative;
     margin: 0 auto;
-    /* border: 20px solid #fff; */
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     margin-top: 10%;
 }
@@ -36,7 +35,6 @@ body {
     top: 174%;
     margin-left: -17px;
     border-radius: 50%;
-    /* box-shadow: 0px 0px 0px 4px rgba(255,255,255,0.3); */
     z-index:-1;
 }
 
@@ -108,13 +106,13 @@ body {
 }
 .cr-container input.cr-selector-img-1:checked ~ .cr-bgimg,
 .cr-bgimg div span:nth-child(1) {
-    background-image: url(https://c.tenor.com/dXHhuo58KFwAAAAd/supernatural-love-myself.gif);
+    background-image: url(https://c.tenor.com/T1PV5tCe-2AAAAAC/what-huh.gif);
     background-size: cover;
     border-radius: 10px;
 }
 .cr-container input.cr-selector-img-2:checked ~ .cr-bgimg,
 .cr-bgimg div span:nth-child(2) {
-    background-image: url(https://c.tenor.com/lidVpo5f7TkAAAAC/supernatural-spn.gif);
+    background-image: url(https://c.tenor.com/lb_WCygGlVMAAAAC/hey-you-steven-furtick.gif);
     background-size: cover;
     border-radius: 10px;
 }
@@ -218,4 +216,17 @@ body {
 .cr-container input.cr-selector-img-3:checked ~ .cr-titles h3:nth-child(3),
 .cr-container input.cr-selector-img-4:checked ~ .cr-titles h3:nth-child(4) {
     opacity: 1;
+}
+
+
+@media screen and (max-width:768px) {
+    .cr-container label {
+        left: 50%;
+        margin-top:371px;
+    }
+
+    .cr-titles h3 {
+        top: 105%;
+        right: 31%;
+    }
 }
